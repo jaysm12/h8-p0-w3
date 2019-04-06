@@ -12,8 +12,7 @@ function pasanganTerbesar(num) {
             }
         }
     }
-
-    
+    hasil = Number(hasil)
     return hasil
 
 

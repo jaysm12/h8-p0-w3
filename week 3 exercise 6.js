@@ -1,9 +1,7 @@
 function angkaPalindrome(num) {
-
     if(num < 10){
         return num + 1
     }
-
     for(var i = num; i < 100000000000; i++){
         num++
         var tampung = num.toString()
@@ -11,11 +9,9 @@ function angkaPalindrome(num) {
         for(var j = tampung.length - 1; j >= 0; j--){
             reverse = reverse + tampung[j]
         }
-
         if(reverse == tampung){
             return num
         }
-        
     }
   }
   
